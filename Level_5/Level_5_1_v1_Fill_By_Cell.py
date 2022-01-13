@@ -1,5 +1,3 @@
-
-
 def solution(g):
     if len(g) < 2 or len(g[0]) < 2:
         return 0
@@ -99,6 +97,3 @@ if __name__ == "__main__":
     timer.restart()
     print(solution(transpose(g3)))
     timer.restart()
-    print(solution(g4))
-    timer.restart()
-    
